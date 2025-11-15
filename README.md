@@ -29,7 +29,7 @@ coeffs, tangents = deformer_.compute_detail_encoding(B)
 ```
 B_prime = deformer_.smooth_mesh(new_pos) # Deformation of the smooth mesh
 B_prime_dets = deformer_.apply_detail_encoding(B_prime, coeffs, tangents) # Detail transfer
-S_prime = B_prime + B\_prime_dets # Final result
+S_prime = B_prime + B_prime_dets # Final result
 ```
 
 ## Code Structure and Deformer Utilities
