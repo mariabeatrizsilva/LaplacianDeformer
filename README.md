@@ -1,10 +1,13 @@
 # Multiresolution Laplacian Mesh Deformer
 
+<img width="1193" height="271" alt="deformed_hand" src="https://github.com/user-attachments/assets/4f3932ee-f920-47fc-9916-1daca725c485" />
+
+
 ## Project Overview
 
 This project implements a **Multiresolution Laplacian Mesh Deformer**, a technique used to manipulate 3D models interactively while preserving their high-frequency geometric details.
 
-This implementation is based on course content from _Professor Daniele Panozzo (NYU)_, who provided the initial setup, including the iPyWidget used in the `DeformExample.ipynb` notebook for interactive visualization and handle manipulation.
+This implementation is based on course content from _Professor Daniele Panozzo (NYU)_, who provided the initial setup, including the iPyWidget used in the `DeformExample.ipynb` notebook for interactive visualization and the `Selection.ipynb` that is used to add handles to a mesh.
 
 ## Multiresolution Mesh Editing Pipeline
 
